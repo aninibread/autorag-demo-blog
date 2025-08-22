@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://nlweb-autorag.app/</loc>
+  <lastmod>2025-08-22T01:00:48+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://nlweb-autorag.app/blog/introducing-autorag-on-cloudflare</loc>
+  <lastmod>2025-08-22T01:00:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nlweb-autorag.app/blog/how-we-built-ai-face-cropping-for-images</loc>
+  <lastmod>2025-08-22T01:00:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nlweb-autorag.app/blog/announcing-cloudflare-browser-developer-program</loc>
+  <lastmod>2025-08-22T01:00:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nlweb-autorag.app/blog/thirteen-new-mcp-servers-from-cloudflare</loc>
+  <lastmod>2025-08-22T01:00:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nlweb-autorag.app/blog/partnering-with-openai-to-bring-open-models</loc>
+  <lastmod>2025-08-22T01:00:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nlweb-autorag.app/blog/the-white-house-ai-action-plan</loc>
+  <lastmod>2025-08-22T01:00:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nlweb-autorag.app/blog/cloudflare-111-incident-july-14-2025</loc>
+  <lastmod>2025-08-22T01:00:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
