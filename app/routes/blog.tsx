@@ -30,13 +30,13 @@ export default function Blog({ loaderData }: Route.ComponentProps) {
 
     const initializeSearch = async () => {
       try {
-        const { NLWebDropdownChat } = await import('https://late-frog-c965-nlweb.anniwang.workers.dev/nlweb-dropdown-chat.js');
+        const { NLWebDropdownChat } = await import('https://ask.nlweb-autorag.app/nlweb-dropdown-chat.js');
         
         const chat = new NLWebDropdownChat({
           containerId: 'docs-search-container',
-          site: 'https://late-frog-c965-nlweb.anniwang.workers.dev',
+          site: 'https://ask.nlweb-autorag.app',
           placeholder: 'Search for docs...',
-          endpoint: 'https://late-frog-c965-nlweb.anniwang.workers.dev'
+          endpoint: 'https://ask.nlweb-autorag.app'
         });
       } catch (error) {
         console.error('Failed to initialize search:', error);

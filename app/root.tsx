@@ -32,8 +32,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
         {/* Add CSS on head as per snippet instructions */}
-        <link rel="stylesheet" href="https://late-frog-c965-nlweb.anniwang.workers.dev/nlweb-dropdown-chat.css" />
-        <link rel="stylesheet" href="https://late-frog-c965-nlweb.anniwang.workers.dev/common-chat-styles.css" />
+        <link rel="stylesheet" href="https://ask.nlweb-autorag.app/nlweb-dropdown-chat.css" />
+        <link rel="stylesheet" href="https://ask.nlweb-autorag.app/common-chat-styles.css" />
       </head>
       <body>
         {children}
