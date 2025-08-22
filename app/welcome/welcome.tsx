@@ -49,6 +49,39 @@ export function Welcome({ message }: { message: string }) {
 
 const resources = [
   {
+    href: "/",
+    text: "View Cloudflare Blog",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        className="stroke-gray-600 group-hover:stroke-current dark:stroke-gray-300"
+      >
+        <path
+          d="M12 2L2 7l10 5 10-5-10-5z"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M2 17l10 5 10-5"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M2 12l10 5 10-5"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    ),
+  },
+  {
     href: "https://reactrouter.com/docs",
     text: "React Router Docs",
     icon: (
