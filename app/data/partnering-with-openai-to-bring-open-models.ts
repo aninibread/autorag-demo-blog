@@ -6,6 +6,8 @@ export const partneringWithOpenaiToBringOpenModels: BlogPost = {
   excerpt: "OpenAI has just announced their latest open-weight models — and we are excited to share that we are working with them as a Day 0 launch partner to make these models available in Cloudflare's Workers AI.",
   content: `OpenAI has just announced their latest open-weight models — and we are excited to share that we are working with them as a Day 0 launch partner to make these models available in Cloudflare's Workers AI. Cloudflare developers can now access OpenAI's first open model, leveraging these powerful new capabilities on our platform. The new models are available starting today at @cf/openai/gpt-oss-120b and @cf/openai/gpt-oss-20b.
 
+![OpenAI Partnership](/images/openai-partnership.svg)
+
 Workers AI has always been a champion for open models and we're thrilled to bring OpenAI's new open models to our platform today. Developers who want transparency, customizability, and deployment flexibility can rely on Workers AI as a place to deliver AI services. Enterprises that need the ability to run open models to ensure complete data security and privacy can also deploy with Workers AI. We are excited to join OpenAI in fulfilling their mission of making the benefits of AI broadly accessible to builders of any size.
 
 ## The technical model specs

@@ -20,6 +20,8 @@ RAG solves this by retrieving relevant information from your data source at quer
 
 AutoRAG sets up a RAG pipeline for you, using the building blocks of Cloudflare's developer platform. Instead of you having to write code to create a RAG system using Workers AI, Vectorize, and AI Gateway, you just create an AutoRAG instance and point it at a data source, like an R2 storage bucket.
 
+![AutoRAG Architecture](/images/autorag-architecture.svg)
+
 Behind the scenes, AutoRAG is powered by two processes: indexing and querying.
 
 Indexing is an asynchronous process that runs in the background. It kicks off as soon as you create an AutoRAG, and automatically continues in cycles — reprocessing new or updated files after each previous job completes. During indexing, your content is transformed into vectors optimized for semantic search.
@@ -61,6 +63,8 @@ When an end user makes a request, AutoRAG orchestrates the following:
 The end result is an AI-powered answer grounded in your private data — accurate, and up to date.
 
 ## RAG to riches in under 5 minutes
+
+![RAG to Riches Launch](/images/autorag-launch.svg)
 
 Most of the time, getting started with AutoRAG is as simple as pointing it to an existing R2 bucket — just drop in your content, and you're ready to go. But what if your content isn't already in a bucket? What if it's still on a webpage or needs to first be rendered dynamically by a frontend UI? You're in luck, because with the Browser Rendering API, you can crawl your own websites to gather information that powers your RAG. The Browser Rendering REST API is now generally available, offering endpoints for common browser actions including extracting HTML content, capturing screenshots, and generating PDFs. Additionally, a crawl endpoint is coming soon, making it even easier to ingest websites.
 

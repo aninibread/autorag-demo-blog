@@ -6,6 +6,8 @@ export const thirteenNewMcpServersFromCloudflare: BlogPost = {
   excerpt: "You can now connect to Cloudflare's first publicly available remote Model Context Protocol (MCP) servers from Claude.ai and other MCP clients like Cursor, Windsurf, or our own AI Playground.",
   content: `You can now connect to Cloudflare's first publicly available remote Model Context Protocol (MCP) servers from Claude.ai (now supporting remote MCP connections!) and other MCP clients like Cursor, Windsurf, or our own AI Playground. Unlock Cloudflare tools, resources, and real time information through our new suite of MCP servers including:
 
+![MCP Servers](/images/mcp-servers.svg)
+
 **Server** | **Description**
 --- | ---
 Cloudflare Documentation server | Get up to date reference information from Cloudflare Developer Documentation

@@ -1,0 +1,55 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- This is a placeholder for the AutoRAG architecture diagram -->
+  <!-- The actual image content would be converted from the provided image -->
+  <defs>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C42;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B1A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#FFF9F5"/>
+  
+  <!-- Central platform -->
+  <rect x="400" y="300" width="400" height="200" rx="20" fill="url(#orangeGradient)" stroke="#FF4500" stroke-width="3"/>
+  
+  <!-- Central search/gear icon -->
+  <circle cx="600" cy="400" r="80" fill="#FF4500" stroke="#FFFFFF" stroke-width="4"/>
+  <rect x="570" y="370" width="60" height="8" rx="4" fill="white"/>
+  <rect x="570" y="385" width="40" height="6" rx="3" fill="white"/>
+  <rect x="570" y="398" width="30" height="6" rx="3" fill="white"/>
+  <circle cx="640" cy="385" r="15" fill="none" stroke="white" stroke-width="3"/>
+  <circle cx="650" cy="410" r="8" fill="#FF8C42"/>
+  
+  <!-- Connected elements around the platform -->
+  <!-- Database -->
+  <rect x="200" y="450" width="80" height="60" rx="10" fill="#FFB366" stroke="#FF6B1A" stroke-width="2"/>
+  <ellipse cx="240" cy="450" rx="40" ry="8" fill="#FF8C42"/>
+  <ellipse cx="240" cy="465" rx="40" ry="8" fill="#FF8C42"/>
+  <ellipse cx="240" cy="480" rx="40" ry="8" fill="#FF8C42"/>
+  
+  <!-- Storage blocks -->
+  <rect x="150" y="250" width="60" height="40" rx="8" fill="#FFD4A3" stroke="#FF8C42" stroke-width="2"/>
+  <rect x="160" y="260" width="40" height="8" rx="2" fill="#FF6B1A"/>
+  <rect x="160" y="272" width="40" height="6" rx="2" fill="#FF6B1A"/>
+  
+  <!-- Right side elements -->
+  <rect x="900" y="200" width="80" height="60" rx="10" fill="#E6F3FF" stroke="#4A90E2" stroke-width="2"/>
+  <rect x="920" y="350" width="60" height="80" rx="10" fill="#FFD4A3" stroke="#FF8C42" stroke-width="2"/>
+  <circle cx="1050" cy="300" r="25" fill="#E6F3FF" stroke="#4A90E2" stroke-width="2"/>
+  <circle cx="1080" cy="330" r="20" fill="#FFB366" stroke="#FF6B1A" stroke-width="2"/>
+  
+  <!-- Connection lines -->
+  <path d="M 280 470 Q 340 435 400 400" stroke="#FF8C42" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  <path d="M 210 270 Q 300 285 400 350" stroke="#FF8C42" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  <path d="M 800 400 Q 850 300 900 230" stroke="#FF8C42" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  <path d="M 800 450 Q 850 400 900 390" stroke="#FF8C42" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- Decorative stars -->
+  <polygon points="300,100 305,115 320,115 308,125 313,140 300,130 287,140 292,125 280,115 295,115" fill="#FFD4A3"/>
+  <polygon points="900,100 903,108 911,108 905,113 908,121 900,117 892,121 895,113 889,108 897,108" fill="#FFB366"/>
+  <polygon points="150,350 153,358 161,358 155,363 158,371 150,367 142,371 145,363 139,358 147,358" fill="#FF8C42"/>
+  
+  <text x="600" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FF4500">AutoRAG Architecture</text>
+</svg>

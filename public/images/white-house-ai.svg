@@ -1,0 +1,111 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- White House AI Action Plan Illustration -->
+  <defs>
+    <linearGradient id="pillarsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A8A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="governmentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DC2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B91C1C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="#FAFBFC"/>
+  
+  <!-- White House Building Silhouette -->
+  <rect x="450" y="150" width="300" height="120" fill="#F3F4F6" stroke="#6B7280" stroke-width="2"/>
+  <rect x="475" y="130" width="250" height="20" fill="#E5E7EB" stroke="#6B7280" stroke-width="1"/>
+  <rect x="500" y="110" width="200" height="20" fill="#D1D5DB" stroke="#6B7280" stroke-width="1"/>
+  <rect x="575" y="80" width="50" height="30" fill="#9CA3AF" stroke="#6B7280" stroke-width="1"/>
+  
+  <!-- Flag -->
+  <rect x="570" y="80" width="3" height="40" fill="#4B5563"/>
+  <rect x="573" y="85" width="25" height="15" fill="#DC2626"/>
+  
+  <!-- Three Pillars -->
+  <!-- Pillar 1: AI Safety -->
+  <rect x="200" y="350" width="120" height="180" rx="10" fill="url(#pillarsGradient)" stroke="#1E40AF" stroke-width="3"/>
+  <text x="260" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Pillar 1</text>
+  <text x="260" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">AI Safety &amp;</text>
+  <text x="260" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Security</text>
+  <circle cx="260" cy="450" r="25" fill="white" stroke="#1E40AF" stroke-width="2"/>
+  <path d="M 250 445 L 255 450 L 270 435" stroke="#1E40AF" stroke-width="3" fill="none"/>
+  <text x="260" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Risk assessment</text>
+  <text x="260" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">&amp; mitigation</text>
+  
+  <!-- Pillar 2: Innovation -->
+  <rect x="540" y="350" width="120" height="180" rx="10" fill="url(#techGradient)" stroke="#047857" stroke-width="3"/>
+  <text x="600" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Pillar 2</text>
+  <text x="600" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Innovation &amp;</text>
+  <text x="600" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Leadership</text>
+  <circle cx="600" cy="450" r="25" fill="white" stroke="#047857" stroke-width="2"/>
+  <path d="M 590 440 L 600 430 L 610 440 L 600 460 Z" fill="#047857"/>
+  <text x="600" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Research &amp;</text>
+  <text x="600" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">development</text>
+  
+  <!-- Pillar 3: Trust -->
+  <rect x="880" y="350" width="120" height="180" rx="10" fill="url(#governmentGradient)" stroke="#B91C1C" stroke-width="3"/>
+  <text x="940" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Pillar 3</text>
+  <text x="940" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Public Trust &amp;</text>
+  <text x="940" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Transparency</text>
+  <circle cx="940" cy="450" r="25" fill="white" stroke="#B91C1C" stroke-width="2"/>
+  <circle cx="940" cy="450" r="15" fill="none" stroke="#B91C1C" stroke-width="2"/>
+  <circle cx="940" cy="450" r="8" fill="none" stroke="#B91C1C" stroke-width="2"/>
+  <text x="940" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Ethical standards</text>
+  <text x="940" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">&amp; accountability</text>
+  
+  <!-- Connecting Elements -->
+  <path d="M 320 440 Q 430 400 540 440" stroke="#4B5563" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  <path d="M 660 440 Q 770 400 880 440" stroke="#4B5563" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- Policy Framework -->
+  <rect x="350" y="280" width="500" height="50" rx="25" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="600" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1D4ED8">National AI Strategy Framework</text>
+  
+  <!-- Key Initiatives -->
+  <rect x="100" y="100" width="200" height="120" rx="10" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  <text x="110" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#92400E">Key Initiatives</text>
+  <text x="110" y="145" font-family="Arial, sans-serif" font-size="11" fill="#78350F">• NIST AI Risk Framework</text>
+  <text x="110" y="160" font-family="Arial, sans-serif" font-size="11" fill="#78350F">• Federal AI Use Guidelines</text>
+  <text x="110" y="175" font-family="Arial, sans-serif" font-size="11" fill="#78350F">• AI Testing &amp; Evaluation</text>
+  <text x="110" y="190" font-family="Arial, sans-serif" font-size="11" fill="#78350F">• International Cooperation</text>
+  <text x="110" y="205" font-family="Arial, sans-serif" font-size="11" fill="#78350F">• Workforce Development</text>
+  
+  <!-- Timeline -->
+  <rect x="900" y="100" width="200" height="120" rx="10" fill="#F0FDF4" stroke="#16A34A" stroke-width="2"/>
+  <text x="910" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#15803D">Implementation</text>
+  <text x="910" y="145" font-family="Arial, sans-serif" font-size="11" fill="#166534">• Executive Order 14110</text>
+  <text x="910" y="160" font-family="Arial, sans-serif" font-size="11" fill="#166534">• 365-day action plan</text>
+  <text x="910" y="175" font-family="Arial, sans-serif" font-size="11" fill="#166534">• Agency compliance</text>
+  <text x="910" y="190" font-family="Arial, sans-serif" font-size="11" fill="#166534">• Regular assessments</text>
+  <text x="910" y="205" font-family="Arial, sans-serif" font-size="11" fill="#166534">• Public reporting</text>
+  
+  <!-- AI Symbol -->
+  <circle cx="600" cy="200" r="30" fill="#6366F1" stroke="#4F46E5" stroke-width="3"/>
+  <circle cx="590" cy="190" r="4" fill="white"/>
+  <circle cx="610" cy="190" r="4" fill="white"/>
+  <circle cx="600" cy="210" r="6" fill="white"/>
+  <path d="M 580 215 Q 600 225 620 215" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- Arrows from White House to Pillars -->
+  <path d="M 500 270 L 260 350" stroke="#6B7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 600 270 L 600 350" stroke="#6B7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 700 270 L 940 350" stroke="#6B7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6B7280"/>
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1F2937">White House AI Action Plan</text>
+  <text x="600" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6B7280">Building safe, secure, and trustworthy artificial intelligence</text>
+</svg>

@@ -1,5 +1,6 @@
 import type { Route } from "./+types/blog";
 import { blogPosts } from "../data/blog-posts";
+import { useEffect } from "react";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -17,6 +18,26 @@ export default function Blog({ loaderData }: Route.ComponentProps) {
   const featuredPost = posts.find(post => post.featured);
   const regularPosts = posts.filter(post => !post.featured);
 
+  useEffect(() => {
+    // Initialize the search component exactly as per snippet instructions
+    const initializeSearch = async () => {
+      try {
+        const { NLWebDropdownChat } = await import('https://late-frog-c965-nlweb.anniwang.workers.dev/nlweb-dropdown-chat.js');
+        
+        const chat = new NLWebDropdownChat({
+          containerId: 'docs-search-container',
+          site: 'https://late-frog-c965-nlweb.anniwang.workers.dev',
+          placeholder: 'Search for docs...',
+          endpoint: 'https://late-frog-c965-nlweb.anniwang.workers.dev'
+        });
+      } catch (error) {
+        console.error('Failed to initialize search:', error);
+      }
+    };
+
+    initializeSearch();
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
@@ -27,12 +48,10 @@ export default function Blog({ loaderData }: Route.ComponentProps) {
               <div className="text-2xl font-bold text-orange-500">☁️</div>
               <span className="text-xl font-semibold">Cloudflare Blog</span>
             </div>
-            <nav className="hidden md:flex space-x-8">
-              <a href="#" className="text-gray-700 hover:text-orange-500">Home</a>
-              <a href="#" className="text-gray-700 hover:text-orange-500">Products</a>
-              <a href="#" className="text-gray-700 hover:text-orange-500">Solutions</a>
-              <a href="#" className="text-gray-700 hover:text-orange-500">Resources</a>
-            </nav>
+            <div className="flex items-center">
+              {/* Search container as per snippet instructions */}
+              <div id="docs-search-container" className="flex-shrink-0"></div>
+            </div>
           </div>
         </div>
       </header>

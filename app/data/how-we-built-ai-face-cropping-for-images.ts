@@ -6,6 +6,8 @@ export const howWeBuiltAiFaceCroppingForImages: BlogPost = {
   excerpt: "AI face cropping for Images automatically crops around faces in an image. Here's how we built this feature on Workers AI to scale for general availability.",
   content: `During Developer Week 2024, we introduced [AI face cropping in private beta](https://blog.cloudflare.com/whats-next-for-cloudflare-media/). This feature automatically crops images around detected faces, and marks the first release in our upcoming suite of AI image manipulation capabilities.
 
+![AI Face Cropping for Images](/images/ai-face-cropping.svg)
+
 [AI face cropping](https://developers.cloudflare.com/images/transform-images/transform-via-url/#gravity) is now available in [Images](https://developers.cloudflare.com/images/) for everyone. To bring this feature to general availability, we moved our CPU-based prototype to a GPU-based implementation in Workers AI, enabling us to address a number of technical challenges, including memory leaks that could hamper large-scale use.
 
 ## Turning raw images into production-ready assets

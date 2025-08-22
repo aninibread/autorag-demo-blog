@@ -6,6 +6,8 @@ export const announcingCloudflareBrowserDeveloperProgram: BlogPost = {
   excerpt: "Today, we are announcing Cloudflare's Browser Developer Program, a collaborative initiative to strengthen partnership between Cloudflare and browser development teams.",
   content: `Today, we are announcing Cloudflare's Browser Developer Program, a collaborative initiative to strengthen partnership between Cloudflare and browser development teams.
 
+![Browser Developer Program](/images/browser-developer-program.svg)
+
 Browser developers can apply to join here.
 
 At Cloudflare, we aim to help build a better Internet. One way we achieve this is by providing website owners with the tools to detect and block unwanted traffic from bots through Cloudflare Challenges or Turnstile. As both bots and our detection systems become more sophisticated, the security checks required to validate human traffic become more complicated. While we aim to strike the right balance, we recognize these security measures can sometimes cause issues for legitimate browsers and their users.

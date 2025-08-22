@@ -1,0 +1,116 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cloudflare 1.1.1.1 Incident Illustration -->
+  <defs>
+    <linearGradient id="errorGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EF4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="recoveryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="networkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="#F8FAFC"/>
+  
+  <!-- DNS Server Representation -->
+  <rect x="500" y="200" width="200" height="120" rx="15" fill="url(#networkGradient)" stroke="#1D4ED8" stroke-width="3"/>
+  <text x="600" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">1.1.1.1</text>
+  <text x="600" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">DNS Resolver</text>
+  <text x="600" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Primary Service</text>
+  <rect x="520" y="285" width="160" height="25" rx="5" fill="white"/>
+  <rect x="525" y="290" width="80" height="15" rx="3" fill="#3B82F6"/>
+  <text x="600" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1D4ED8">Server Status</text>
+  
+  <!-- Timeline -->
+  <rect x="100" y="100" width="1000" height="80" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="110" y="125" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#334155">Incident Timeline - July 14, 2025</text>
+  
+  <!-- Timeline Events -->
+  <circle cx="200" cy="150" r="8" fill="#EF4444"/>
+  <text x="200" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#DC2626">14:32 UTC</text>
+  <text x="200" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#DC2626">Incident Start</text>
+  
+  <circle cx="400" cy="150" r="8" fill="#F59E0B"/>
+  <text x="400" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#D97706">14:45 UTC</text>
+  <text x="400" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#D97706">Issue Identified</text>
+  
+  <circle cx="600" cy="150" r="8" fill="#3B82F6"/>
+  <text x="600" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2563EB">15:12 UTC</text>
+  <text x="600" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2563EB">Mitigation</text>
+  
+  <circle cx="800" cy="150" r="8" fill="#10B981"/>
+  <text x="800" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#059669">15:47 UTC</text>
+  <text x="800" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#059669">Full Recovery</text>
+  
+  <!-- Connection lines for timeline -->
+  <line x1="208" y1="150" x2="392" y2="150" stroke="#94A3B8" stroke-width="2"/>
+  <line x1="408" y1="150" x2="592" y2="150" stroke="#94A3B8" stroke-width="2"/>
+  <line x1="608" y1="150" x2="792" y2="150" stroke="#94A3B8" stroke-width="2"/>
+  
+  <!-- Error Indicators -->
+  <g transform="translate(200, 350)">
+    <rect x="-40" y="-30" width="80" height="60" rx="8" fill="url(#errorGradient)" stroke="#B91C1C" stroke-width="2"/>
+    <path d="M -15 -15 L 15 15 M 15 -15 L -15 15" stroke="white" stroke-width="4"/>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#DC2626">DNS Errors</text>
+  </g>
+  
+  <!-- Recovery Status -->
+  <g transform="translate(1000, 350)">
+    <rect x="-40" y="-30" width="80" height="60" rx="8" fill="url(#recoveryGradient)" stroke="#047857" stroke-width="2"/>
+    <path d="M -20 0 L -5 15 L 20 -10" stroke="white" stroke-width="4" fill="none"/>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#059669">Recovered</text>
+  </g>
+  
+  <!-- Affected Services -->
+  <rect x="100" y="400" width="200" height="150" rx="10" fill="#FEE2E2" stroke="#F87171" stroke-width="2"/>
+  <text x="110" y="425" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#DC2626">Affected Services</text>
+  <text x="110" y="445" font-family="Arial, sans-serif" font-size="11" fill="#991B1B">• DNS Resolution</text>
+  <text x="110" y="460" font-family="Arial, sans-serif" font-size="11" fill="#991B1B">• Website Access</text>
+  <text x="110" y="475" font-family="Arial, sans-serif" font-size="11" fill="#991B1B">• Mobile Applications</text>
+  <text x="110" y="490" font-family="Arial, sans-serif" font-size="11" fill="#991B1B">• API Services</text>
+  <text x="110" y="505" font-family="Arial, sans-serif" font-size="11" fill="#991B1B">• Third-party Integrations</text>
+  <text x="110" y="520" font-family="Arial, sans-serif" font-size="11" fill="#991B1B">• Global Traffic Routing</text>
+  <text x="110" y="535" font-family="Arial, sans-serif" font-size="11" fill="#991B1B">Duration: ~75 minutes</text>
+  
+  <!-- Root Cause -->
+  <rect x="350" y="400" width="250" height="150" rx="10" fill="#FEF3C7" stroke="#FBBF24" stroke-width="2"/>
+  <text x="360" y="425" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#92400E">Root Cause Analysis</text>
+  <text x="360" y="445" font-family="Arial, sans-serif" font-size="11" fill="#78350F">• BGP route propagation issue</text>
+  <text x="360" y="460" font-family="Arial, sans-serif" font-size="11" fill="#78350F">• Upstream provider configuration</text>
+  <text x="360" y="475" font-family="Arial, sans-serif" font-size="11" fill="#78350F">• Traffic routing anomalies</text>
+  <text x="360" y="490" font-family="Arial, sans-serif" font-size="11" fill="#78350F">• Cascading DNS failures</text>
+  <text x="360" y="505" font-family="Arial, sans-serif" font-size="11" fill="#78350F">• Monitoring system alerts</text>
+  <text x="360" y="520" font-family="Arial, sans-serif" font-size="11" fill="#78350F">• Emergency response team</text>
+  <text x="360" y="535" font-family="Arial, sans-serif" font-size="11" fill="#78350F">• Mitigation procedures</text>
+  
+  <!-- Lessons Learned -->
+  <rect x="650" y="400" width="250" height="150" rx="10" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="660" y="425" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#047857">Preventive Measures</text>
+  <text x="660" y="445" font-family="Arial, sans-serif" font-size="11" fill="#065F46">• Enhanced BGP monitoring</text>
+  <text x="660" y="460" font-family="Arial, sans-serif" font-size="11" fill="#065F46">• Improved redundancy</text>
+  <text x="660" y="475" font-family="Arial, sans-serif" font-size="11" fill="#065F46">• Faster detection systems</text>
+  <text x="660" y="490" font-family="Arial, sans-serif" font-size="11" fill="#065F46">• Updated runbooks</text>
+  <text x="660" y="505" font-family="Arial, sans-serif" font-size="11" fill="#065F46">• Team training programs</text>
+  <text x="660" y="520" font-family="Arial, sans-serif" font-size="11" fill="#065F46">• Infrastructure hardening</text>
+  <text x="660" y="535" font-family="Arial, sans-serif" font-size="11" fill="#065F46">• Customer communication</text>
+  
+  <!-- Network Nodes -->
+  <circle cx="350" cy="250" r="15" fill="#94A3B8" stroke="#64748B" stroke-width="2"/>
+  <circle cx="850" cy="250" r="15" fill="#94A3B8" stroke="#64748B" stroke-width="2"/>
+  <circle cx="600" cy="380" r="15" fill="#94A3B8" stroke="#64748B" stroke-width="2"/>
+  
+  <!-- Connection lines to DNS server -->
+  <line x1="365" y1="250" x2="500" y2="260" stroke="#64748B" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="835" y1="250" x2="700" y2="260" stroke="#64748B" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="600" y1="365" x2="600" y2="320" stroke="#64748B" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1F2937">1.1.1.1 DNS Service Incident</text>
+  <text x="600" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6B7280">Post-Mortem Analysis - July 14, 2025</text>
+</svg>

@@ -1,0 +1,104 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- OpenAI Partnership Illustration -->
+  <defs>
+    <linearGradient id="openaiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10A37F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#08875A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cloudflareGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C42;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B1A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bridgeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667EEA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764BA2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="#F8FAFC"/>
+  
+  <!-- OpenAI Logo Area -->
+  <circle cx="300" cy="300" r="80" fill="url(#openaiGradient)" stroke="#0A7B5C" stroke-width="4"/>
+  <text x="300" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">OpenAI</text>
+  <text x="300" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Models</text>
+  <text x="300" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">&amp; APIs</text>
+  
+  <!-- Cloudflare Logo Area -->
+  <circle cx="900" cy="300" r="80" fill="url(#cloudflareGradient)" stroke="#FF4500" stroke-width="4"/>
+  <text x="900" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Cloudflare</text>
+  <text x="900" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Global</text>
+  <text x="900" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Network</text>
+  
+  <!-- Partnership Bridge -->
+  <rect x="380" y="280" width="440" height="40" rx="20" fill="url(#bridgeGradient)" stroke="#5A67D8" stroke-width="2"/>
+  <text x="600" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Partnership Bridge</text>
+  
+  <!-- Model Icons -->
+  <!-- GPT-4 -->
+  <rect x="180" y="150" width="80" height="60" rx="10" fill="#10A37F" stroke="#08875A" stroke-width="2"/>
+  <text x="220" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">GPT-4</text>
+  <text x="220" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Reasoning</text>
+  <text x="220" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">&amp; Vision</text>
+  
+  <!-- o1 Models -->
+  <rect x="320" y="120" width="80" height="60" rx="10" fill="#0D9F73" stroke="#0A7B5C" stroke-width="2"/>
+  <text x="360" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">o1 Series</text>
+  <text x="360" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Reasoning</text>
+  <text x="360" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Excellence</text>
+  
+  <!-- GPT-4o -->
+  <rect x="180" y="400" width="80" height="60" rx="10" fill="#12B886" stroke="#0C8A64" stroke-width="2"/>
+  <text x="220" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">GPT-4o</text>
+  <text x="220" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Multimodal</text>
+  <text x="220" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Flagship</text>
+  
+  <!-- Cloudflare Services -->
+  <!-- Workers AI -->
+  <rect x="940" y="150" width="80" height="60" rx="10" fill="#FF6B1A" stroke="#E55A11" stroke-width="2"/>
+  <text x="980" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Workers</text>
+  <text x="980" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">AI</text>
+  <text x="980" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Platform</text>
+  
+  <!-- AI Gateway -->
+  <rect x="820" y="120" width="80" height="60" rx="10" fill="#FF8C42" stroke="#FF6B1A" stroke-width="2"/>
+  <text x="860" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">AI</text>
+  <text x="860" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Gateway</text>
+  <text x="860" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Control</text>
+  
+  <!-- Edge Network -->
+  <rect x="940" y="400" width="80" height="60" rx="10" fill="#FFB84D" stroke="#FF8C42" stroke-width="2"/>
+  <text x="980" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Edge</text>
+  <text x="980" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Network</text>
+  <text x="980" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Global</text>
+  
+  <!-- Connection Lines -->
+  <path d="M 260 180 Q 320 240 380 280" stroke="#10A37F" stroke-width="3" fill="none"/>
+  <path d="M 360 180 Q 400 230 450 280" stroke="#0D9F73" stroke-width="3" fill="none"/>
+  <path d="M 260 430 Q 320 360 380 320" stroke="#12B886" stroke-width="3" fill="none"/>
+  
+  <path d="M 820 300 Q 780 240 740 180" stroke="#FF6B1A" stroke-width="3" fill="none"/>
+  <path d="M 860 180 Q 800 230 750 280" stroke="#FF8C42" stroke-width="3" fill="none"/>
+  <path d="M 940 430 Q 880 360 820 320" stroke="#FFB84D" stroke-width="3" fill="none"/>
+  
+  <!-- Benefits Box -->
+  <rect x="450" y="400" width="300" height="120" rx="10" fill="#E6F7FF" stroke="#1890FF" stroke-width="2"/>
+  <text x="460" y="425" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1890FF">Partnership Benefits</text>
+  <text x="460" y="445" font-family="Arial, sans-serif" font-size="11" fill="#096DD9">• Global edge deployment</text>
+  <text x="460" y="460" font-family="Arial, sans-serif" font-size="11" fill="#096DD9">• Enterprise-grade security</text>
+  <text x="460" y="475" font-family="Arial, sans-serif" font-size="11" fill="#096DD9">• Reduced latency worldwide</text>
+  <text x="460" y="490" font-family="Arial, sans-serif" font-size="11" fill="#096DD9">• Seamless API integration</text>
+  <text x="460" y="505" font-family="Arial, sans-serif" font-size="11" fill="#096DD9">• Advanced monitoring tools</text>
+  
+  <!-- Statistics -->
+  <rect x="450" y="100" width="300" height="100" rx="10" fill="#F0F8E6" stroke="#52C41A" stroke-width="2"/>
+  <text x="460" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#52C41A">Global Reach</text>
+  <text x="460" y="145" font-family="Arial, sans-serif" font-size="11" fill="#389E0D">• 330+ cities worldwide</text>
+  <text x="460" y="160" font-family="Arial, sans-serif" font-size="11" fill="#389E0D">• Sub-100ms latency</text>
+  <text x="460" y="175" font-family="Arial, sans-serif" font-size="11" fill="#389E0D">• 99.99% uptime SLA</text>
+  <text x="460" y="190" font-family="Arial, sans-serif" font-size="11" fill="#389E0D">• Enterprise compliance</text>
+  
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#2C3E50">OpenAI Partnership</text>
+  <text x="600" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#718096">Bringing powerful AI models to Cloudflare's global edge network</text>
+</svg>

@@ -6,6 +6,8 @@ export const cloudflare111IncidentJuly142025: BlogPost = {
   excerpt: "On 14 July 2025, Cloudflare made a change to our service topologies that caused an outage for 1.1.1.1 on the edge, resulting in downtime for 62 minutes for customers using the 1.1.1.1 public DNS Resolver.",
   content: `On 14 July 2025, Cloudflare made a change to our service topologies that caused an outage for 1.1.1.1 on the edge, resulting in downtime for 62 minutes for customers using the 1.1.1.1 public DNS Resolver as well as intermittent degradation of service for Gateway DNS.
 
+![Cloudflare 1.1.1.1 Incident](/images/cloudflare-incident.svg)
+
 Cloudflare's 1.1.1.1 Resolver service became unavailable to the Internet starting at 21:52 UTC and ending at 22:54 UTC. The majority of 1.1.1.1 users globally were affected. For many users, not being able to resolve names using the 1.1.1.1 Resolver meant that basically all Internet services were unavailable. This outage can be observed on Cloudflare Radar.
 
 The outage occurred because of a misconfiguration of legacy systems used to maintain the infrastructure that advertises Cloudflare's IP addresses to the Internet.

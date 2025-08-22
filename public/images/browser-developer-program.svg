@@ -1,0 +1,92 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Browser Developer Program Illustration -->
+  <defs>
+    <linearGradient id="browserGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667EEA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764BA2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cloudflareGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C42;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B1A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="#F7FAFC"/>
+  
+  <!-- Central Partnership Hub -->
+  <circle cx="600" cy="300" r="100" fill="url(#cloudflareGradient)" stroke="#FF4500" stroke-width="4"/>
+  <text x="600" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Cloudflare</text>
+  <text x="600" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Developer</text>
+  <text x="600" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Program</text>
+  
+  <!-- Browser Icons Around the Hub -->
+  <!-- Chrome -->
+  <g transform="translate(400, 150)">
+    <circle cx="0" cy="0" r="40" fill="#4285F4" stroke="#1A73E8" stroke-width="2"/>
+    <circle cx="0" cy="0" r="25" fill="white"/>
+    <circle cx="0" cy="0" r="15" fill="#4285F4"/>
+    <text x="0" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4285F4">Chrome</text>
+  </g>
+  
+  <!-- Firefox -->
+  <g transform="translate(800, 150)">
+    <circle cx="0" cy="0" r="40" fill="#FF9500" stroke="#E57C00" stroke-width="2"/>
+    <path d="M -15 -10 Q 0 -25 15 -10 Q 10 0 15 10 Q 0 25 -15 10 Q -10 0 -15 -10" fill="#FF6B1A"/>
+    <text x="0" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FF9500">Firefox</text>
+  </g>
+  
+  <!-- Safari -->
+  <g transform="translate(350, 450)">
+    <circle cx="0" cy="0" r="40" fill="#007AFF" stroke="#0051D0" stroke-width="2"/>
+    <polygon points="0,-20 8,0 0,20 -8,0" fill="white"/>
+    <text x="0" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#007AFF">Safari</text>
+  </g>
+  
+  <!-- Edge -->
+  <g transform="translate(850, 450)">
+    <circle cx="0" cy="0" r="40" fill="#0078D4" stroke="#106EBE" stroke-width="2"/>
+    <path d="M -20 0 Q 0 -20 20 0 Q 10 10 0 10 Q -10 10 -20 0" fill="white"/>
+    <text x="0" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0078D4">Edge</text>
+  </g>
+  
+  <!-- Mobile Browsers -->
+  <g transform="translate(200, 300)">
+    <rect x="-25" y="-35" width="50" height="70" rx="8" fill="#34D399" stroke="#10B981" stroke-width="2"/>
+    <rect x="-20" y="-25" width="40" height="50" rx="4" fill="white"/>
+    <circle cx="0" cy="30" r="4" fill="#10B981"/>
+    <text x="0" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#10B981">Mobile</text>
+  </g>
+  
+  <!-- Connection Lines -->
+  <path d="M 500 200 Q 550 250 500 300" stroke="#FF8C42" stroke-width="3" fill="none"/>
+  <path d="M 700 200 Q 650 250 700 300" stroke="#FF8C42" stroke-width="3" fill="none"/>
+  <path d="M 450 400 Q 525 350 500 300" stroke="#FF8C42" stroke-width="3" fill="none"/>
+  <path d="M 750 400 Q 675 350 700 300" stroke="#FF8C42" stroke-width="3" fill="none"/>
+  <path d="M 300 300 Q 450 300 500 300" stroke="#FF8C42" stroke-width="3" fill="none"/>
+  
+  <!-- Program Benefits -->
+  <rect x="50" y="50" width="200" height="150" rx="10" fill="#EDF2F7" stroke="#A0AEC0" stroke-width="2"/>
+  <text x="60" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2D3748">Program Benefits</text>
+  <text x="60" y="95" font-family="Arial, sans-serif" font-size="11" fill="#4A5568">• Direct communication</text>
+  <text x="60" y="110" font-family="Arial, sans-serif" font-size="11" fill="#4A5568">• Early visibility</text>
+  <text x="60" y="125" font-family="Arial, sans-serif" font-size="11" fill="#4A5568">• Best practices</text>
+  <text x="60" y="140" font-family="Arial, sans-serif" font-size="11" fill="#4A5568">• Testing integration</text>
+  <text x="60" y="155" font-family="Arial, sans-serif" font-size="11" fill="#4A5568">• Priority support</text>
+  <text x="60" y="175" font-family="Arial, sans-serif" font-size="11" fill="#4A5568">• Community forum</text>
+  
+  <!-- Challenge Platform -->
+  <rect x="950" y="250" width="180" height="100" rx="10" fill="#FED7D7" stroke="#E53E3E" stroke-width="2"/>
+  <text x="960" y="275" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#C53030">Challenge Platform</text>
+  <text x="960" y="295" font-family="Arial, sans-serif" font-size="11" fill="#742A2A">Seamless integration</text>
+  <text x="960" y="310" font-family="Arial, sans-serif" font-size="11" fill="#742A2A">across all browsers</text>
+  <text x="960" y="330" font-family="Arial, sans-serif" font-size="11" fill="#742A2A">• JavaScript optimization</text>
+  
+  <!-- Collaboration Arrows -->
+  <path d="M 250 125 Q 400 200 500 250" stroke="#A0AEC0" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <path d="M 950 300 Q 800 300 700 300" stroke="#E53E3E" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2D3748">Browser Developer Program</text>
+  <text x="600" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#718096">Building a better web together through collaboration</text>
+</svg>

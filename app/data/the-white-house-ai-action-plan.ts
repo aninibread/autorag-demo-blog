@@ -6,6 +6,8 @@ export const theWhiteHouseAiActionPlan: BlogPost = {
   excerpt: "On July 23, 2025, the White House unveiled its AI Action Plan, a significant policy document outlining the current administration's priorities and deliverables in Artificial Intelligence.",
   content: `On July 23, 2025, the White House unveiled its AI Action Plan (Plan), a significant policy document outlining the current administration's priorities and deliverables in Artificial Intelligence. This plan emerged after the White House received over 10,000 public comments in response to a February 2025 Request for Information (RFI). Cloudflare's comments urged the White House to foster conditions for U.S. leadership in AI and support open-source AI, among other recommendations.
 
+![White House AI Action Plan](/images/white-house-ai.svg)
+
 There is a lot packed into the three pillar, 28-page Plan.
 
 **Pillar I: Accelerate AI Innovation.** Focuses on removing regulations, enabling AI adoption and developing, and ensuring the availability of open-source and open-weight AI models.
