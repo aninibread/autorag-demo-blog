@@ -1,7 +1,7 @@
 import type { Route } from "./+types/blog.$postId";
 import { blogPosts } from "../data/blog-posts";
 import { marked } from "marked";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export function meta({ params }: Route.MetaArgs) {
   const post = blogPosts.find(p => p.id === params.postId);
@@ -29,9 +29,17 @@ export function loader({ params }: Route.LoaderArgs) {
 
 export default function BlogPost({ loaderData }: Route.ComponentProps) {
   const { post, htmlContent } = loaderData;
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    // Initialize the search component exactly as per snippet instructions
+    // Mark that we're on the client to avoid hydration mismatches
+    setIsClient(true);
+  }, []);
+
+  useEffect(() => {
+    // Only initialize search after client-side hydration is complete
+    if (!isClient) return;
+
     const initializeSearch = async () => {
       try {
         const { NLWebDropdownChat } = await import('https://late-frog-c965-nlweb.anniwang.workers.dev/nlweb-dropdown-chat.js');
@@ -48,7 +56,7 @@ export default function BlogPost({ loaderData }: Route.ComponentProps) {
     };
 
     initializeSearch();
-  }, []);
+  }, [isClient]);
 
   return (
     <div className="min-h-screen bg-white">

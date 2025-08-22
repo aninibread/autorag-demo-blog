@@ -1,6 +1,6 @@
 import type { Route } from "./+types/blog";
 import { blogPosts } from "../data/blog-posts";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -17,9 +17,17 @@ export default function Blog({ loaderData }: Route.ComponentProps) {
   const { posts } = loaderData;
   const featuredPost = posts.find(post => post.featured);
   const regularPosts = posts.filter(post => !post.featured);
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    // Initialize the search component exactly as per snippet instructions
+    // Mark that we're on the client to avoid hydration mismatches
+    setIsClient(true);
+  }, []);
+
+  useEffect(() => {
+    // Only initialize search after client-side hydration is complete
+    if (!isClient) return;
+
     const initializeSearch = async () => {
       try {
         const { NLWebDropdownChat } = await import('https://late-frog-c965-nlweb.anniwang.workers.dev/nlweb-dropdown-chat.js');
@@ -36,7 +44,7 @@ export default function Blog({ loaderData }: Route.ComponentProps) {
     };
 
     initializeSearch();
-  }, []);
+  }, [isClient]);
 
   return (
     <div className="min-h-screen bg-white">
